@@ -1,0 +1,12 @@
+.blume-btn {
+  background-color: #E5D9D2;
+  border-color: #637140;
+  border-width: 3px;
+  color: #637140;
+}
+
+.blume-btn.active, .blume-btn:hover, .blume-btn:focus {
+  background-color: #637140;
+  color: #E5D9D2;
+  outline: none !important;
+}
