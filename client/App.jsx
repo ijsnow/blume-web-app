@@ -36,7 +36,7 @@ App = React.createClass({
     return (
       <div className="container">
         {this.renderUnitTabs()}
-        <SettingsButton />
+        
         <div className="row">
           <div className="col-xs-12">
             <Unit unitId={unitId}/>

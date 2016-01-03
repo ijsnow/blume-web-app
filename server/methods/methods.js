@@ -1,6 +1,6 @@
 Meteor.methods({
-  storePacket (options) {
 
+  storePacket (options) {
     Packets.insert({
       unitId: options.unitId,
       temperature: options.temperature,
@@ -34,6 +34,6 @@ Meteor.methods({
   },
 
   unitExists (id) {
-    return (Units.find({ unitId: id }).count() === 0) ? false : true;
+    return (Units.find({ unitId: id }).count() > 0);
   }
 });

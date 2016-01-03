@@ -60,6 +60,6 @@ Meteor.startup(function () {
       });
     };
 
-    createDemoPackets( );
+    createDemoPackets();
   }
 } );

@@ -58,17 +58,17 @@ Chart = React.createClass({
       },
       plugins: [
         Chartist.plugins.ctAxisTitle({
-          axisX: {
-            axisTitle: 'Time (mins)',
-            axisClass: 'ct-axis-title',
-            offset: {
-              x: 0,
-              y: 35
-            },
-            textAnchor: 'middle'
-          },
+          // axisX: {
+          //   axisTitle: 'Time (mins)',
+          //   axisClass: 'ct-axis-title',
+          //   offset: {
+          //     x: 0,
+          //     y: 55
+          //   },
+          //   textAnchor: 'middle'
+          // },
           axisY: {
-            axisTitle: 'Temperature',
+            axisTitle: 'Temperature (F)',
             axisClass: 'ct-axis-title',
             offset: {
               x: 0,
