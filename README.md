@@ -21,4 +21,4 @@ In another terminal tab, find your local broadcasting address:
 
 In the output, look for ```inet addr``` in the ```en0``` or ```en1``` sections.
 
-Mine right now is ```inet 192.168.1.106```, so on my phone, I navigate to ```192.168.1.106:3000``` to view the app running.
+Mine right now is ```inet 192.168.1.106```, so on my phone, I navigate to ```192.168.1.106:3000``` in a web browser to view the app running.
