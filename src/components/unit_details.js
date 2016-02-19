@@ -4,12 +4,9 @@ import { connect } from 'react-redux';
 import { fetchUnitPackets } from '../actions/actions_packets';
 import { Link } from 'react-router';
 import Chart from './chart';
+import colors from '../../style/colors';
 
 class UnitDetails extends Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   componentWillMount() {
     this.fetchUnitPackets();
@@ -29,7 +26,7 @@ class UnitDetails extends Component {
 
     return (
       <div style={styles.base}>
-        <Chart data={temps} color="orange" units="F" />
+        <Chart data={temps} color={colors.olive} units="F" />
       </div>
     );
   }

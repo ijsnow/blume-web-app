@@ -16,10 +16,6 @@ import FaRight from 'react-icons/lib/fa/angle-right';
 
 class UnitTabs extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   componentWillMount() {
     this.props.fetchUnits();
   }
@@ -119,7 +115,11 @@ const styles = {
     }
   },
   isActive: {
-    background: color(colors.beige).lighten(0.05).hexString()
+    background: colors.olive,
+    color: color(colors.beige).lighten(0.05).hexString(),
+    ':hover': {
+      background: colors.olive
+    }
   },
   isFarAwayTab: {
     display: "none"
